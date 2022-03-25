@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="classes" thread-count="6" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.orangehrm.Smoke_Suite"/>
+	  <class name="com.orangehrm.OrangeHRM_TestNG_Priority" />
+	  <class name="com.orangehrm.OrangeHRM_TestNG" />
+	  <class name="com.orangehrm.OrangeHRM_TestNG_Login_Using_Xpath" />
+	  <class name="com.orangehrm.OrangeHRM_TestNG_Login_Using_CSS" />
+	  <class name="com.orangehrm.OrangeHRM_Navigate_Command" />
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
